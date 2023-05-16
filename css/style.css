@@ -71,6 +71,19 @@ header ul li:hover a
     padding: 100px;
 }
 
+#home::before
+{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 50vw;
+    height: 25vw;
+    background: #30fe6c;
+    border-top-right-radius: 25vw;
+    border-top-left-radius: 25vw;
+}
+
 #home .content
 {
     position: relative;
@@ -109,5 +122,15 @@ header ul li:hover a
     font-weight: 500;
     letter-spacing: 0.05em;
     text-decoration: none;
+    margin-top: 10px;
 }
+
+#home .img
+{
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+    max-height: 90vh;
+}
+
 

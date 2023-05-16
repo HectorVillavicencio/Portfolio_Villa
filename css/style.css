@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -22,6 +23,7 @@ header
     justify-content: space-between;
     align-items: center;
     z-index: 10000;
+    backdrop-filter: blur(20px);
 }
 
 header .Logo
@@ -66,7 +68,7 @@ header ul li:hover a
     width: 100%;
     min-height: 100vh; 
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     padding: 100px;
 }
@@ -90,7 +92,7 @@ header ul li:hover a
     display: flex;
     flex-direction: column;
     gap: 10px;
-    max-width: column;
+    max-width: 650px;
     z-index: 10;
 }
 
@@ -118,7 +120,7 @@ header ul li:hover a
     background: #30fe6c;
     color: #200;
     text-align: center;
-    padding: 10px 30px;
+    padding: 18px 30px;
     font-weight: 500;
     letter-spacing: 0.05em;
     text-decoration: none;
@@ -133,4 +135,14 @@ header ul li:hover a
     max-height: 90vh;
 }
 
+
+#skills,
+#projects,
+#contact
+{
+    position: relative;
+    background: #34353a;
+    min-height: 100vh;
+    padding: 120px 100px;
+}
 

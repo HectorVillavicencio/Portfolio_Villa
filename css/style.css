@@ -135,14 +135,88 @@ header ul li:hover a
     max-height: 90vh;
 }
 
-
-#skills,
 #projects,
+#skills,
 #contact
 {
     position: relative;
     background: #34353a;
     min-height: 100vh;
     padding: 120px 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
+/*tamaño y color de los iconos de los projectos*/
+
+div i
+{
+    font-size: 200px;
+    color: gray;
+    margin: 7px;
+    transition: 0.5s;
+}
+
+.secText
+{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.secText h2
+{
+    font-size: 3em;
+    color: #fff;
+}
+
+.secText p
+{
+    max-width: 700px;
+    text-align: center;
+    color: #aaa;
+    font-size: 1.1em;
+    line-height: 1.5em;
+}
+
+#projects .content
+{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 20px;
+    margin: 40px 0;
+}
+
+#projects .content .projectsBx
+{
+    background: #2e2f34;
+    padding: 50px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid #2e2f34;
+    gap: 20px;
+}
+
+#projects .content .projectsBx:hover
+{
+   border: 2px solid #30fe6c;
+   transition: 0.5s; 
+}
+
+div i:hover
+{
+    color: #30fe6c;
+}
+
+#projects .content .projectsBx h3
+{
+    color: #fff;
+    font-weight: 500;
+    color: #30fe6c;
+}

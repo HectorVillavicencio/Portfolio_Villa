@@ -148,15 +148,6 @@ header ul li:hover a
     flex-direction: column;
 }
 
-/*tamaño y color de los iconos de los projectos*/
-
-div i
-{
-    font-size: 200px;
-    color: gray;
-    margin: 7px;
-    transition: 0.5s;
-}
 
 .secText
 {
@@ -209,7 +200,18 @@ div i
    transition: 0.5s; 
 }
 
-div i:hover
+/*tamaño y color de los iconos de los projectos*/
+
+#projects .content .projectsBx i
+{
+    font-size: 200px;
+    color: gray;
+    margin: 7px;
+    transition: 0.5s;
+    opacity: 0.5;
+}
+
+#projects .content .projectsBx:hover i
 {
     color: #30fe6c;
 }
@@ -247,13 +249,18 @@ b
 
 b:hover
 {
+    color: #4f8b00;
     background-color: #03e9f4;
-    color: #050801;
-    box-shadow: 0 0 5px #03e9f4,
-                0 0 25px #03e9f4,
-                0 0 50px #03e9f4,
+    /*me gusta para tenerlo*/
+    box-shadow: 0 0 5px #d37f12,
+                0 0 25px #b90e78,
+                0 0 50px #2ea50a,
                 0 0 200px #03e9f4;
-    -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);*/
+    /*text-shadow: 0 0 5px #03e9f4,
+                 0 0 5px #03e9f4,
+                 0 0 5px #03e9f4,
+                 0 0 5px #03e9f4;*/
 }
 
 b:first-child
@@ -266,16 +273,16 @@ b:last-child
  
 }
 
-div b i
+b i
 {
     font-size: 35px;
     color: #03e9f4;
 
 }
 
-div b i:hover
+b:hover i
 {
-   
+   transition: 0.5;
     color: #050800;
 
 }

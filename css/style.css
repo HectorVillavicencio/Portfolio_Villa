@@ -249,40 +249,31 @@ b
 
 b:hover
 {
-    color: #4f8b00;
-    background-color: #03e9f4;
-    /*me gusta para tenerlo*/
+    
+    color:#000;
+    font-weight: bold;
+    /*me gusta para tenerlo
     box-shadow: 0 0 5px #d37f12,
                 0 0 25px #b90e78,
                 0 0 50px #2ea50a,
                 0 0 200px #03e9f4;
     -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);*/
-    /*text-shadow: 0 0 5px #03e9f4,
+    text-shadow: 0 0 5px #03e9f4,
                  0 0 5px #03e9f4,
                  0 0 5px #03e9f4,
-                 0 0 5px #03e9f4;*/
+                 0 0 5px #03e9f4;
 }
 
-b:first-child
-{
-    filter: hue-rotate(225deg);
-}
-
-b:last-child
-{
- 
-}
 
 b i
 {
     font-size: 35px;
     color: #03e9f4;
-
 }
+
 
 b:hover i
 {
    transition: 0.5;
     color: #050800;
-
 }

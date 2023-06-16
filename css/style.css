@@ -232,14 +232,13 @@ header ul li:hover a
     background-color: #000;
 }
 
-b
-{
+b1 {
     position: relative;
     display: inline-block;
     padding: 25px 30px;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: #03e9f4;
+    color: #E22219;
     font-size: 1rem;
     font-weight: bold;
     transition: .5s;
@@ -247,33 +246,160 @@ b
     margin-right: 70px;
 }
 
-b:hover
-{
-    
-    color:#000;
-    font-weight: bold;
-    /*me gusta para tenerlo
+    b1:hover {
+        color: #000;
+        font-weight: bold;
+        /*me gusta para tenerlo
     box-shadow: 0 0 5px #d37f12,
                 0 0 25px #b90e78,
                 0 0 50px #2ea50a,
                 0 0 200px #03e9f4;
     -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);*/
-    text-shadow: 0 0 5px #03e9f4,
-                 0 0 5px #03e9f4,
-                 0 0 5px #03e9f4,
-                 0 0 5px #03e9f4;
-}
+        text-shadow: 0 0 5px #E22219,
+                     0 0 5px #E22219, 
+                     0 0 5px #E22219, 
+                     0 0 5px #E22219;
+    }
 
 
-b i
-{
-    font-size: 35px;
-    color: #03e9f4;
-}
+    b1 i {
+        font-size: 35px;
+        color: #E22219;
+    }
 
 
-b:hover i
+b1:hover i
 {
    transition: 0.5;
     color: #050800;
 }
+
+b2 {
+    position: relative;
+    display: inline-block;
+    padding: 25px 30px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #F26620;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: .5s;
+    overflow: hidden;
+    margin-right: 70px;
+}
+
+    b2:hover {
+        color: #000;
+        font-weight: bold;
+        text-shadow: 0 0 5px #F26620, 0 0 5px #F26620, 0 0 5px #F26620, 0 0 5px #F26620;
+    }
+
+
+    b2 i {
+        font-size: 35px;
+        color: #F26620;
+    }
+
+
+    b2:hover i {
+        transition: 0.5;
+        color: #050800;
+    }
+
+<--holas--/ >
+b3 {
+    position: relative;
+    display: inline-block;
+    padding: 25px 30px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #1950E2;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: .5s;
+    overflow: hidden;
+    margin-right: 70px;
+}
+
+b3:hover {
+    color: #000;
+    font-weight: bold;
+    text-shadow: 0 0 5px #1950E2, 0 0 5px #1950E2, 0 0 5px #1950E2, 0 0 5px #1950E2;
+}
+
+
+b3 i {
+    font-size: 35px;
+    color: #1950E2;
+}
+
+
+b3:hover i {
+    transition: 0.5;
+    color: #050800;
+}
+
+b3 {
+    position: relative;
+    display: inline-block;
+    padding: 25px 30px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #1950E2;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: .5s;
+    overflow: hidden;
+    margin-right: 70px;
+}
+
+    b3:hover {
+        color: #000;
+        font-weight: bold;
+        text-shadow: 0 0 5px #1950E2, 0 0 5px #1950E2, 0 0 5px #1950E2, 0 0 5px #1950E2;
+    }
+
+
+    b3 i {
+        font-size: 35px;
+        color: #1950E2;
+    }
+
+
+    b3:hover i {
+        transition: 0.5;
+        color: #050800;
+    }
+
+
+b4 {
+    position: relative;
+    display: inline-block;
+    padding: 25px 30px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #17DE29;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: .5s;
+    overflow: hidden;
+    margin-right: 70px;
+}
+
+    b4:hover {
+        color: #000;
+        font-weight: bold;
+        text-shadow: 0 0 5px #17DE29, 0 0 5px #17DE29, 0 0 5px #17DE29, 0 0 5px #17DE29;
+    }
+
+
+    b4 i {
+        font-size: 35px;
+        color: #17DE29;
+    }
+
+
+    b4:hover i {
+        transition: 0.5;
+        color: #050800;
+    }

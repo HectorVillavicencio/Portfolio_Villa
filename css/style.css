@@ -232,7 +232,8 @@ header ul li:hover a
     background-color: #000;
 }
 
-b1 {
+.b {
+    text-decoration: none;
     position: relative;
     display: inline-block;
     padding: 25px 30px;
@@ -246,7 +247,8 @@ b1 {
     margin-right: 70px;
 }
 
-    b1:hover {
+
+.b:hover {
         color: #000;
         font-weight: bold;
         /*me gusta para tenerlo
@@ -259,147 +261,92 @@ b1 {
                      0 0 5px #E22219, 
                      0 0 5px #E22219, 
                      0 0 5px #E22219;
-    }
+}
 
 
-    b1 i {
+.b i {
         font-size: 35px;
         color: #E22219;
-    }
+}
 
 
-b1:hover i
+.b:hover i
 {
    transition: 0.5;
     color: #050800;
 }
 
-b2 {
-    position: relative;
-    display: inline-block;
-    padding: 25px 30px;
-    text-transform: uppercase;
-    letter-spacing: 4px;
+/* Colores a los botones*/
+/*git*/
+.b1 {
     color: #F26620;
-    font-size: 1rem;
-    font-weight: bold;
-    transition: .5s;
-    overflow: hidden;
-    margin-right: 70px;
 }
 
-    b2:hover {
-        color: #000;
-        font-weight: bold;
-        text-shadow: 0 0 5px #F26620, 0 0 5px #F26620, 0 0 5px #F26620, 0 0 5px #F26620;
-    }
+.b1:hover {
+    text-shadow: 0 0 5px #F26620, 0 0 5px #F26620, 0 0 5px #F26620, 0 0 5px #F26620;
+}
 
 
-    b2 i {
-        font-size: 35px;
-        color: #F26620;
-    }
+.b1 i {
+    color: #F26620;
+ }
 
 
-    b2:hover i {
-        transition: 0.5;
-        color: #050800;
-    }
+/*ld*/
 
-<--holas--/ >
-b3 {
-    position: relative;
-    display: inline-block;
-    padding: 25px 30px;
-    text-transform: uppercase;
-    letter-spacing: 4px;
+.b2 {
     color: #1950E2;
-    font-size: 1rem;
-    font-weight: bold;
-    transition: .5s;
-    overflow: hidden;
-    margin-right: 70px;
 }
 
-b3:hover {
-    color: #000;
-    font-weight: bold;
+.b2:hover {
     text-shadow: 0 0 5px #1950E2, 0 0 5px #1950E2, 0 0 5px #1950E2, 0 0 5px #1950E2;
 }
 
 
-b3 i {
-    font-size: 35px;
+.b2 i {
     color: #1950E2;
 }
 
+/*whatsapp*/
+.b3 {
 
-b3:hover i {
-    transition: 0.5;
-    color: #050800;
-}
-
-b3 {
-    position: relative;
-    display: inline-block;
-    padding: 25px 30px;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    color: #1950E2;
-    font-size: 1rem;
-    font-weight: bold;
-    transition: .5s;
-    overflow: hidden;
-    margin-right: 70px;
-}
-
-    b3:hover {
-        color: #000;
-        font-weight: bold;
-        text-shadow: 0 0 5px #1950E2, 0 0 5px #1950E2, 0 0 5px #1950E2, 0 0 5px #1950E2;
-    }
-
-
-    b3 i {
-        font-size: 35px;
-        color: #1950E2;
-    }
-
-
-    b3:hover i {
-        transition: 0.5;
-        color: #050800;
-    }
-
-
-b4 {
-    position: relative;
-    display: inline-block;
-    padding: 25px 30px;
-    text-transform: uppercase;
-    letter-spacing: 4px;
     color: #17DE29;
-    font-size: 1rem;
-    font-weight: bold;
-    transition: .5s;
-    overflow: hidden;
-    margin-right: 70px;
+
 }
 
-    b4:hover {
-        color: #000;
-        font-weight: bold;
-        text-shadow: 0 0 5px #17DE29, 0 0 5px #17DE29, 0 0 5px #17DE29, 0 0 5px #17DE29;
-    }
+.b3:hover{
+    text-shadow: 0 0 5px #17DE29, 0 0 5px #17DE29, 0 0 5px #17DE29, 0 0 5px #17DE29;
+}
 
 
-    b4 i {
-        font-size: 35px;
-        color: #17DE29;
-    }
+.b3 i {
+    color: #17DE29;
+}
 
+/*Botones para Skills*/
 
-    b4:hover i {
-        transition: 0.5;
-        color: #050800;
-    }
+button{
+
+}
+.buttonSkill{
+    transition: all 0.3s ease 0s;
+    font-size: 50px;
+    background-color: #000000;
+    color: #30fe6c;
+    border-radius: 50%;
+    border: none;
+    width: 60px;
+    height: 60px;
+    min-width: 60px;
+    line-height: 60px;
+    align-self: center;
+    cursor: pointer;
+    outline: none;
+}
+
+.buttonSkill:hover{
+    color: #000000;
+    background-color: #30fe6c;
+    font-size: 60px;
+}
+

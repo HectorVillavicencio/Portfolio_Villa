@@ -347,21 +347,37 @@ header ul li:hover a
     font-size: 60px;
 }
 
-.cajaSkills{
+/*Skill y flechas*/
+.SkillyFlechas{
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 50px 100px;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10000;
     overflow: hidden;
     position: relative;
     width: 100%;
-    margin: 0px 10px;
+    margin: 20px 170px;
 }
 
-.cajaSkills2{
-    position: absolute;
+
+/*Skills*/
+.scrolling-container{
     display: flex;
-    flex-direction: row;
-    transition: all 500ms ease 0s;
-    left: -863.589px;
-    right: auto;
-    top: auto;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+
+.scrolling-card{
+flex: 0 0 auto;
+border: 10px;
+width: 250;
+height: 150px;
+text-align: center;
 }
 
 .cajaSkills3{
@@ -381,4 +397,8 @@ header ul li:hover a
     -webkit-box-pack: center;
     justify-content: center;
 }
+
+.skillImg{
+    width: 140px;
+    
 }

@@ -391,3 +391,7 @@ header ul li:hover a
 .skillImg:hover{
     width: 160px;
 }
+
+.imgT{
+    width: 20px;
+}

@@ -327,24 +327,22 @@ header ul li:hover a
 
 .buttonSkill{
     transition: all 0.3s ease 0s;
-    font-size: 45px;
+    font-size: 35px;
     background-color: #222;
     color: #30fe6c;
-    border-radius: 50%;
+    border-radius: 5%;
     border: none;
     width: 60px;
-    height: 60px;
-    min-width: 60px;
-    line-height: 60px;
+    height: 150px;
     align-self: center;
     cursor: pointer;
-    outline: none;
+
 }
 
 .buttonSkill:hover{
     color: #222;
     background-color: #30fe6c;
-    font-size: 60px;
+    font-size: 45px;
 }
 
 /*Skill y flechas*/
@@ -370,35 +368,29 @@ header ul li:hover a
     display: flex;
     flex-wrap: nowrap;
     overflow-x: auto;
+    scroll-behavior: smooth;
+}
+
+.scrolling-container::-webkit-scrollbar{
+    display: none;
 }
 
 .scrolling-card{
-flex: 0 0 auto;
-border: 10px;
-width: 250;
-height: 150px;
-text-align: center;
+    flex: 0 0 auto;
+    border: 10px;
+    width: 155px;
+    height: 150px;
+    text-align: center;
+
 }
 
-.cajaSkills3{
-    display: flex;
-}
-
-.cajaSkill{
-    width: 119.745px;
-    padding: 0px;
-}
-
-.cajaskill2{
-    box-sizing: border-box;
-    display: flex;
-    overflow: hidden;
-    user-select: none;
-    -webkit-box-pack: center;
-    justify-content: center;
-}
 
 .skillImg{
+    transition: all 0.3s ease 0s;
     width: 140px;
     
+}
+
+.skillImg:hover{
+    width: 160px;
 }

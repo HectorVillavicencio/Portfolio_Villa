@@ -527,6 +527,26 @@ header ul li:hover a
     header ul{
         display: none;
     }
+
+    header.active ul{
+        position: fixed;
+        left: 0;
+        top: 84px;
+        width: 100%;
+        height: calc(100vh - 84px);
+        background: rgba(50, 50, 50, 0.95);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        z-index: 10000;
+        gap: 20px;
+    }
+
+    header.active ul li a{
+        font-size: 2em;
+    }
+
     .menuToggle{
         position: relative;
         width: 30px;
@@ -544,7 +564,7 @@ header ul li:hover a
         background: #fff;
         transform: translateY(-10px);
         transition: 0.5s;
-        box-shadow: 0 10px #fff
+        box-shadow: 0 10px #fff;
     }
 
     .menuToggle::after{
@@ -553,9 +573,16 @@ header ul li:hover a
         width: 100%;
         height: 2px;
         background: #fff;
-        transform: translateY(-10px);
+        transform: translateY(10px);
         transition: 0.5s;
     }
-    
+    header.active .menuToggle::before{
+        transform: translateY(0px) rotate(45deg);
+        box-shadow: 0 0px #fff
+    }
+    header.active .menuToggle::after{
+        transform: translateY(0px) rotate(315deg);
+        box-shadow: 0 0px #fff
+    }
 }
 

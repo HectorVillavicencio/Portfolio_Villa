@@ -492,8 +492,30 @@ header ul li:hover a
     #projects .content{
         grid-template-columns: repeat(1,1fr);
     }
+
     .wrapper{
         grid-template-columns: repeat(1,1fr);
+        align-items: center;
+        justify-content: center;
     }
+
+    .SkillyFlechas{
+        width: 100%;
+        padding: 1px 1px;
+        width: 100%;
+        margin: 50px 10px;
+    }
+    .b{
+        
+        padding: 1px 1px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-right: 10px;
+        
+        
+    }
+    
 }
 

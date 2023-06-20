@@ -474,6 +474,15 @@ header ul li:hover a
         width: 100%;
         margin: 200px 10px;
     }
+    .b{
+        
+        padding: 1px 1px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-right: 10px; 
+    }
 }
 
 @media (max-width: 700px) {
@@ -512,9 +521,40 @@ header ul li:hover a
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        margin-right: 10px;
-        
-        
+        margin-right: 10px; 
+    }
+
+    header ul{
+        display: none;
+    }
+    .menuToggle{
+        position: relative;
+        width: 30px;
+        height: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer; 
+    }
+    .menuToggle::before{
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        background: #fff;
+        transform: translateY(-10px);
+        transition: 0.5s;
+        box-shadow: 0 10px #fff
+    }
+
+    .menuToggle::after{
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        background: #fff;
+        transform: translateY(-10px);
+        transition: 0.5s;
     }
     
 }

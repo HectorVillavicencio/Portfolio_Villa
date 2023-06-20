@@ -109,6 +109,7 @@ header ul li:hover a
     color: #fff;
     font-size: 1.2em;
     line-height: 1.6em;
+    text-shadow: 1px 2px 2px black;
 }
 
 .btn
@@ -227,11 +228,12 @@ header ul li:hover a
 
 .wrapper
 {
-    display: flex;
+    display: grid;
     justify-content: center;
     align-items: center;
     min-height: 40vh;
     background-color: #000;
+    grid-template-columns: repeat(4,1fr);
 }
 
 .b {
@@ -405,6 +407,73 @@ header ul li:hover a
     position: relative;
     color: #aaa;
     font-size: 1.1em;
+}
+
+@media (max-width: 900px){
+    header{
+        padding: 20px 50px;
+    }
+    #home{
+        padding: 150px;
+        flex-direction: column;
+        padding-bottom: 0;
+    }
+
+    #home .content h2{
+        font-size: 4em;
+    }
+
+    .btn{
+        max-width: 160px;
+        padding: 10px 20px;
+    }
+    #home .img{
+        position: absolute;
+        height: 50vh;
+        right: 0;
+    }
+
+    .secText h2{
+        font-size: 2em;
+        text-align: center;
+    }
+
+    #projects,
+    #skills,
+    #contact{
+        padding: 100px 50px 50px;
+    }
+
+    #projects .content{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .buttonSkill{
+        display: none;
+    }
+    .wrapper{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .scrolling-card{
+        flex: 0 0 auto;
+        border: 10px;
+        width: 150px;
+        height: 150px;
+        text-align: center;
+    }
+    .SkillyFlechas{
+        display: flex;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 50px 10px;
+        justify-content: space-between;
+        overflow: hidden;
+        position: relative;
+        width: 100%;
+        margin: 200px 10px;
+    }
 
 
 }

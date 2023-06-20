@@ -195,6 +195,7 @@ header ul li:hover a
     flex-direction: column;
     border: 2px solid #2e2f34;
     gap: 20px;
+    text-decoration: none;
 }
 
 #projects .content .projectsBx:hover
@@ -224,6 +225,16 @@ header ul li:hover a
     color: #fff;
     font-weight: 500;
     color: #30fe6c;
+}
+
+#projects .content .projectsBx h2
+{
+    color: #fff;
+    font-weight: 500;
+}
+
+.imgp{
+    width: 250px
 }
 
 .wrapper

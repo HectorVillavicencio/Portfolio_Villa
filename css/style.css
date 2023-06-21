@@ -96,6 +96,11 @@ header ul li:hover a
     z-index: 10;
 }
 
+#home .content h1{
+    font-size: 2em;
+    color: #fff;
+}
+
 #home .content h2
 {
     position: relative;
